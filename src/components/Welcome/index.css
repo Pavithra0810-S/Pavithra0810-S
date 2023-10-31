@@ -1,0 +1,47 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  font-family: Bree Serif;
+}
+.welcome-app-container {
+  background-color: #1e293b;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 30px;
+  color: #f0bb03;
+  font-weight: bold;
+}
+
+p {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+button {
+  height: 34px;
+  width: 100px;
+  border-radius: 8px;
+  color: #1e293b;
+  border-width: 0px;
+  font-weight: bold;
+  padding: 2px;
+  cursor: pointer;
+  outline: none;
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 70px;
+  }
+
+  p {
+    font-size: 35px;
+  }
+}
